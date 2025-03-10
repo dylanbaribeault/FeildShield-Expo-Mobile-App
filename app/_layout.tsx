@@ -10,6 +10,7 @@ import { config } from '@/config/gluestack-ui.config';
 import { SplashScreen } from 'expo-router';
 import { AuthProvider } from '@/contexts/auth';
 import { DevicesProvider } from '@/contexts/devices';
+import { NavigationContainer } from '@react-navigation/native';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -36,16 +37,18 @@ export default function RootLayout() {
   }
 
   return (
-    <GluestackUIProvider config={config}>
-      <AuthProvider>
-        <DevicesProvider>
-          <Stack screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          </Stack>
-          <StatusBar style="auto" />
-        </DevicesProvider>
-      </AuthProvider>
-    </GluestackUIProvider>
+    <NavigationContainer>
+      <GluestackUIProvider config={config}>
+        <AuthProvider>
+          <DevicesProvider>
+            <Stack screenOptions={{ headerShown: false }}>
+              <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            </Stack>
+            <StatusBar style="auto" />
+          </DevicesProvider>
+        </AuthProvider>
+      </GluestackUIProvider>
+    </NavigationContainer>
   );
 }

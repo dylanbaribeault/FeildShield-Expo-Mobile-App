@@ -1,0 +1,27 @@
+The above error occurred in the <ForwardRef(BaseNavigationContainer)> component:
+
+    at BaseNavigationContainer (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:58806:5)
+    at NavigationContainerInner (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:66563:5)
+    at RootLayout (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:318386:46)
+    at Suspense
+    at Route (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:73088:5)
+    at https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:73454:7
+    at div
+    at https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:40692:27
+    at NativeSafeAreaProvider (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:71044:5)
+    at SafeAreaProvider (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:70914:5)
+    at wrapper (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:89108:7)
+    at ThemeProvider (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:61791:5)
+    at EnsureSingleNavigator (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:60498:5)
+    at BaseNavigationContainer (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:58806:5)
+    at NavigationContainerInner (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:89320:5)
+    at ContextNavigator (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:89151:5)
+    at ExpoRoot (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:89099:14)
+    at _HelmetProvider (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:321026:7)
+    at App
+    at LogBoxStateSubscription (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:3954:9)
+    at ErrorOverlay
+    at withDevTools(ErrorOverlay)
+    at AppContainer (https://5c97c962-7950-4c2d-a320-47f9d3573ed9-00-2jglbcldqil85.worf.replit.dev/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&unstable_transformProfile=hermes-stable:76762:5)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, LogBoxStateSubscription.
