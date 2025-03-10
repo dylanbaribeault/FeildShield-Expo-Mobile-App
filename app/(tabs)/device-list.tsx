@@ -2,7 +2,7 @@ import { View, StyleSheet, ScrollView, Image } from 'react-native';
 import { Box, Text, VStack, HStack, Heading, Button, Input, InputField } from '@gluestack-ui/themed';
 import { Search, Plus, BatteryMedium, SignalMedium, ThermometerSun } from 'lucide-react-native';
 
-export default function DevicesScreen() {
+export default function DeviceListScreen() {
   return (
     <View style={styles.container}>
       <Box p="$4" bg="$white">
